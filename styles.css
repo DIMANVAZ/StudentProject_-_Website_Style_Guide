@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    /* border:1px solid black; */
+    display:flex;
+    padding: 5px;
+}
+
+section {
+    border:1px solid black;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+.colorRectangleMain{
+    border:2px solid dimgrey;
+    position: relative;
+    flex-basis:20%;
+    margin:5px 5px;
+    min-width: 270px;
+    min-height:120px;
+    padding:10px;
+}
+
+.colorRectangleSecond{
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding:5px;
+
+}
+
+span{
+    font-size:1.5em;
+    font-weight:600;
+}
+
+#Main1{
+ background-color:#FF00FF;
+}
+
+#Sec1{
+    background-color:#66FF00;
+}
+
+#Main2{
+    background-color:#DEB887;
+}
+
+#Sec2{
+    background-color:#666699;
+    color:beige;
+}
+
+#Main3{
+    background-color:#006400;
+    color: white;
+}
+
+#Sec3{
+    background-color:#660033;
+    color: white;
+}
+
+#Main4{
+    background-color: #FF6347;
+}
+
+#Sec4{
+    background-color:#339999;
+}
+
+#Main5{
+    background-color:#1E90FF;
+    color:white;
+}
+
+#Sec5{
+    background-color:#FF6600;
+    color:black;
+}
+
+.sectionName{
+    text-align:center;
+    padding: 10px;
+    font-size:1.5em;
+    font-weight:600;
+    background-color:beige;
+}
+
+.fontPanel{
+    border:1px dotted black;
+    margin: 5px 5px;
+    padding:10px;
+    width:470px;
+    line-height: 1.8;
+    font-size:18px;
+}
+
+.fontsContainer{
+    display:grid;
+    grid-template-rows: 50% 50%; /* 2 строки */
+    grid-template-columns: 50% 50%; /* 2 столбца */
+}
+
+.Grandstander p:nth-child(1){
+    font-family:"Grandstander";
+    font-weight:800;
+    font-style:normal;
+}
+.Grandstander p:nth-child(2){
+    font-family:"Grandstander";
+    font-weight:400;
+    font-style:normal;
+}
+.Grandstander p:nth-child(3){
+    font-family:"Grandstander";
+    font-weight:300;
+    font-style:italic;
+}
+
+.CinzelDecorative p:nth-child(1){
+    font-family:"CinzelDecorative";
+    font-weight:900;
+    font-style:normal;
+}
+.CinzelDecorative p:nth-child(2){
+    font-family:"CinzelDecorative";
+    font-weight:700;
+    font-style:normal;
+}
+.CinzelDecorative p:nth-child(3){
+    font-family:"CinzelDecorative";
+    font-weight:400;
+    font-style:normal;
+}
+
+.SpectralSC p:nth-child(1){
+    font-family:"Spectral SC";
+    font-weight:700;
+    font-style:italic;
+}
+.SpectralSC p:nth-child(2){
+    font-family:"Spectral SC";
+    font-weight:500;
+    font-style:italic;
+}
+.SpectralSC p:nth-child(3){
+    font-family:"Spectral SC";
+    font-weight:200;
+    font-style:normal;
+}
+
+.PlayfairDisplay p:nth-child(1){
+     font-family:"Playfair Display";
+     font-weight:900;
+     font-style:italic;
+ }
+.PlayfairDisplay p:nth-child(2){
+    font-family:"Playfair Display";
+    font-weight:500;
+    font-style:italic;
+}
+.PlayfairDisplay p:nth-child(3){
+    font-family:"Playfair Display";
+    font-weight:400;
+    font-style:normal;
+}
+
+#headings h1{
+    font-family:"CinzelDecorative";
+    font-weight:900;
+    font-size: 36px;
+    font-style:normal;
+    padding: 10px;
+}
+
+#headings h2{
+    font-family:"Spectral SC";
+    font-weight:700;
+    font-size: 26px;
+    font-style:italic;
+    padding: 10px;
+}
+
+#headings p{
+    font-family:"CinzelDecorative";
+    font-weight:400;
+    font-size: 1em;
+    font-style:normal;
+    padding: 10px;
+}
+
+#headings{
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+}
+
+.buttons{
+    border:2px solid lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom:20px;
+}
+
+.btn-lg{
+    width:100px;
+    height:100px;
+    border-radius: 100px;
+    background-color: lime;
+    color:white;
+    font-weight: bold;
+    font-size: 26px;
+    border:2px solid black;
+    margin-right: 20px;
+}
+
+.btn-sm{
+    width:50px;
+    height:100px;
+    background-color: red;
+    color:white;
+    font-weight: bold;
+    font-size: 12px;
+    border:2px solid black;
+}
+
